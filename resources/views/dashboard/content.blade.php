@@ -6,7 +6,7 @@
         <div class="col-md-12">
             <div class="box box-default">
                 <div class="box-body">
-                    Index
+                    <?= isset($content) ? $content : '' ?>
                 </div>
             </div>
         </div>

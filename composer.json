@@ -17,8 +17,15 @@
         "php": ">=5.6.4",
         "laravel/framework": "v5.4.30",
         "laravel/tinker": "v1.0.2",
+        "oomphinc/composer-installers-extender": "v1.1.2",
         "doctrine/dbal": "v2.5.12",
-        "rap2hpoutre/laravel-log-viewer": "v0.10.2"
+
+        "rap2hpoutre/laravel-log-viewer": "v0.10.2",
+        "davejamesmiller/laravel-breadcrumbs": "3.0.3",
+
+        "almasaeed2010/adminlte": "v2.3.11",
+        "fortawesome/font-awesome": "v4.7.0",
+        "driftyco/ionicons": "v2.0.1"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -58,7 +65,23 @@
     },
     "config": {
         "preferred-install": "dist",
-        "sort-packages": true,
+        "sort-packages": false,
         "optimize-autoloader": true
+    },
+    "extra": {
+        "installer-types": [
+            "library",
+            "component"
+        ],
+        "installer-paths": {
+            "public/assets/{$name}/": [
+                "almasaeed2010/adminlte",
+                "fortawesome/font-awesome",
+                "driftyco/ionicons"
+            ]
+        }
+    },
+    "support": {
+        "issues": "https://github.com/zoilomora/factusol-rest-api/issues"
     }
 }
