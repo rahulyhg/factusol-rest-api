@@ -1,9 +1,18 @@
 {
     "name": "zoilomora/factusol-rest-api",
     "description": "The REST-API to implement B2B in FactuSOL.",
+    "version": "dev-master",
+    "type": "project",
     "keywords": ["laravel", "factusol", "rest-api", "api", "b2b"],
     "license": "MIT",
-    "type": "project",
+    "authors": [
+        {
+            "name": "Zoilo Mora",
+            "email": "zoilo.mora@hotmail.com",
+            "homepage": "http://zoilomora.net",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "php": ">=5.6.4",
         "laravel/framework": "v5.4.30",
