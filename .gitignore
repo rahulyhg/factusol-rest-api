@@ -1,0 +1,36 @@
+# Mac DS_Store Files
+.DS_Store
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer vendor dir
+/vendor
+composer.lock
+
+# phpstorm project files
+.idea
+.phpstorm.meta.php
+
+# netbeans project files
+nbproject/*
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# Laravel
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/.vagrant
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.env
+
+# PHPUnit
+report/
