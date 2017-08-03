@@ -179,6 +179,8 @@ return [
 
         Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
         DaveJamesMiller\Breadcrumbs\ServiceProvider::class,
+
+        ZoiloMora\AccessServiceProvider::class,
     ],
 
     /*

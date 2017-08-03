@@ -78,6 +78,13 @@ return [
             'prefix' => '',
         ],
 
+        'access' => [
+            'driver' => 'pdo_access',
+            'connection_string' => env('ACCESS_CONNECTION_STRING', ''),
+            'username' => env('ACCESS_USERNAME'),
+            'password' => env('ACCESS_PASSWORD'),
+            'table_prefix' => env('ACCESS_TABLE_PREFIX', ''),
+        ]
     ],
 
     /*

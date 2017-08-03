@@ -15,17 +15,19 @@
     ],
     "require": {
         "php": ">=5.6.4",
-        "laravel/framework": "v5.4.30",
+        "laravel/framework": "v5.4.32",
         "laravel/tinker": "v1.0.2",
         "oomphinc/composer-installers-extender": "v1.1.2",
-        "doctrine/dbal": "v2.5.12",
+        "doctrine/dbal": "v2.6.1",
 
-        "rap2hpoutre/laravel-log-viewer": "v0.10.2",
+        "rap2hpoutre/laravel-log-viewer": "v0.10.4",
         "davejamesmiller/laravel-breadcrumbs": "3.0.3",
 
         "almasaeed2010/adminlte": "v2.3.11",
         "fortawesome/font-awesome": "v4.7.0",
-        "driftyco/ionicons": "v2.0.1"
+        "driftyco/ionicons": "v2.0.1",
+
+        "zoilomora/laravel-msaccess": "1.0.0-beta"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

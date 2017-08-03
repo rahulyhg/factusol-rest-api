@@ -11,6 +11,7 @@ composer.lock
 # phpstorm project files
 .idea
 .phpstorm.meta.php
+_ide_helper_models.php
 
 # netbeans project files
 nbproject/*
